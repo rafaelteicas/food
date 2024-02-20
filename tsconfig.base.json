@@ -14,7 +14,10 @@
     "skipLibCheck": true,
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
-    "paths": {}
+    "paths": {
+      "@food/ui": ["apps/web/ui/src/index.ts"],
+      "@food/ui/server": ["apps/web/ui/src/server.ts"]
+    }
   },
   "exclude": ["node_modules", "tmp"]
 }
